@@ -1,0 +1,8 @@
+```{r}
+library(tesseract)
+library(pdftools)
+res <- pdf_text("~/Desktop/Collins_Gabrielle_resume.pdf")
+
+res[1]
+```
+

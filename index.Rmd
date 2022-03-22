@@ -1,7 +1,8 @@
-```
+
 ---
-title: "My Website"
+title: "Welcome!"
 ---
-      
-Hello, Website!
+```     
+Hello, my name is Gabrielle Collins and I am a second year graduate student at Iowa State University majoring in statistics. I have a passion for Data Science, and I am graduating with my Master's in May 2022. In my free time, I like running and playing with my Golden Retriever Zola. 
 ```
+

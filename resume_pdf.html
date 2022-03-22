@@ -11,7 +11,7 @@
 
 
 
-<title>Welcome!</title>
+<title>resume_pdf.knit</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
@@ -262,12 +262,16 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome!</h1>
 
 </div>
 
 
-<pre><code>Hello, my name is Gabrielle Collins and I am a second year graduate student at Iowa State University majoring in statistics. I have a passion for Data Science, and I am graduating with my Master&#39;s in May 2022. In my free time, I like running and playing with my Golden Retriever Zola. </code></pre>
+<pre class="r"><code>library(tesseract)
+library(pdftools)
+res &lt;- pdf_text(&quot;~/Desktop/Collins_Gabrielle_resume.pdf&quot;)
+
+res[1]</code></pre>
+<pre><code>## [1] &quot;                                GABRIELLE COLLINS\n                                              Ames, IA 50010\n         (518) 521 – 5302 | glcoll16@iastate.edu | www.linkedin.com/in/gabrielle-collins-b25322179\n\nPROFESSIONAL SUMMARY\n\n   •   Statistician with experience in statistical modeling, theory and computation\n   •   Ability to transform and manipulate big data into readable and comprehensive output\n   •   Effectively communicate statistical concepts to non-technical audiences\n   •   Proficient coding ability with emphasis on data visualization and analysis\n   •   Strong collaborator with experience working in a team environment\n\nTECHNICAL SKILLS\n\n   •   Programming Languages: R, SAS, Python, SQL\n   •   Data Analysis: R, JMP, Microsoft Office Suite, Excel, Minitab\n   •   Other: LaTeX, GitHub, R Shiny, R Markdown\n\nEDUCATION\n\nIowa State University (ISU), Ames, IA                                            August 2020- May 2022\nMaster of Science (M.Sc.), Statistics                                                        GPA: 3.75\n\nSt. Lawrence University (SLU), Canton, NY                                                       May 2020\nBachelor of Science (B.S), Mathematics and Statistics                                           GPA: 3.87\n\nEXPERIENCE\n\nDepartment of Statistics, ISU, Ames, IA                                              Fall 2021-Present\nGraduate Instructor for Introduction to Statistics\n• Explain the concepts of introductory statistics to roughly 80 undergraduate students through\n   lecturing\n• Construct and enforce course policies and guidelines\n• Design, format, write and grade student exams\n• Communicate with students daily for additional instruction and guidance\n\nAlice Hyde Medical Center, Malone, NY                                        June 2021- August 2021\nFinancial Analyst Intern\n• Cleaned and organized financial data from 20 hospital departments\n• Improved the graphics used to present monthly financial analysis at board meetings\n• Reconciled 50 vendor accounts and paid over-due bills\n• Constructed bi-weekly and monthly aging reports from 50 vendor accounts\n&quot;</code></pre>
 
 
 

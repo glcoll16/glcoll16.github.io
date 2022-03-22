@@ -1,0 +1,7 @@
+```
+Here is a list of some of my favorite packages in R:
+```
+[-ggplot2](https://ggplot2.tidyverse.org/)
+[-dpylr](https://dplyr.tidyverse.org/)
+[-purrr](https://purrr.tidyverse.org/)
+[-glm](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/glm)
